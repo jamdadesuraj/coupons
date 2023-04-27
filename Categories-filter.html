@@ -1,0 +1,1661 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Coupan Web</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        role="status"
+        style="width: 3rem; height: 3rem"
+      ></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <div
+      class="container-fluid fixed-top px-0 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <!-- <div class="top-bar row gx-0 align-items-center d-none d-lg-flex"></div> -->
+
+      <nav
+        class="navbar navbar-expand-lg navbar-light py-lg-4 px-lg-5 wow fadeIn"
+        data-wow-delay="0.1s"
+      >
+        <a href="index.html" class="navbar-brand ms-4 ms-lg-0 p-4 pt-lg-4 pb-0">
+          <img src="./img/logo.png" alt="" srcset="" class="img-fluid" />
+        </a>
+        <button
+          type="button"
+          class="navbar-toggler me-4"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav mx-auto p-4 pt-lg-4 pb-0">
+            <a href="index.html" class="nav-item nav-link">Home</a>
+            <a href="about.html" class="nav-item nav-link">About Us</a>
+            <div class="nav-item dropdown ktm-mega-menu d-none d-lg-block">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+                Categories
+              </a>
+              <!-- Mega Menu -->
+              <div class="dropdown-menu mega-menu p-3">
+                <div class="row">
+                  <div class="col-md-4 col-12">
+                    <div class="category-wrapper">
+                      <a href="" rel="noindex"
+                        ><div class="red heading">Recharge</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Bill Payments</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">DTH Recharge</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Mobile Recharge</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="red heading">Food &amp; Dining</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Pizza</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Food Delivery</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Grocery</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="red heading">Fashion</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Clothing</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Footwear</div></a
+                      >
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-12">
+                    <div class="category-wrapper">
+                      <a href="" rel="noindex"
+                        ><div class="red heading">Travel</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Bus</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Flight</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Train</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Cabs</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Hotel</div></a
+                      >
+                      <div class="heading">Other Popular</div>
+                      <a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Mobiles</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Laptops</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Movie Tickets</div></a
+                      >
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-12">
+                    <div class="category-wrapper">
+                      <div class="heading">Other Categories</div>
+                      <a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">
+                          TV, Audio/Video &amp; Movies
+                        </div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Beauty &amp; Health</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Miscellaneous</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">
+                          Computers, Laptops &amp; Gaming
+                        </div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Appliances</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">
+                          Home Furnishing &amp; Decor
+                        </div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">
+                          Flowers, Gifts &amp; Jewellery
+                        </div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">
+                          Books &amp; Stationery
+                        </div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">
+                          Kids, Babies &amp; Toys
+                        </div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">
+                          Cameras &amp; Accessories
+                        </div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Sports &amp; Fitness</div></a
+                      >
+                    </div>
+                  </div>
+                  <div class="top-categories">
+                    <a href="categories.html"
+                      >View all Categories <i class="fa fa-angle-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <a
+              href="categories.html"
+              class="nav-item nav-link d-lg-none d-block"
+              >Categories</a
+            >
+            <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+            <a href="blog.html" class="nav-item nav-link">Blog</a>
+            <div class="d-block d-lg-none ms-2 p-4 pt-lg-4 pb-0">
+              <a
+                href="login.html"
+                type="button"
+                class="btn btn-outline-danger rounded-pill"
+                >Login</a
+              >
+              <a
+                href="register.html"
+                type="button"
+                class="btn btn-outline-danger rounded-pill mx-3"
+              >
+                SignUp
+              </a>
+            </div>
+          </div>
+          <div class="d-none d-lg-flex ms-2 p-4 pt-lg-4 pb-0">
+            <div class="dropdown">
+              <a
+                class="btn btn-light dropdown-toggle d-flex px-3"
+                href="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <div class="row">
+                  <div class="col-6">
+                    <div class="position-relative">
+                      <img
+                        height="40px"
+                        width="40px"
+                        class="header-user-pic"
+                        src="https://d1nrhamtcpp354.cloudfront.net/modules/web/assets/images/default_user.png"
+                        alt="profile pic"
+                      />
+                      <span
+                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                      >
+                        1
+                        <span class="visually-hidden">unread messages</span>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-6" style="line-height: 5px">
+                    <h6>You</h6>
+                    <small>Rs.0.00</small>
+                  </div>
+                </div>
+              </a>
+
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li>
+                  <a class="dropdown-item" href="register.html">Signup</a>
+                </li>
+                <li><a class="dropdown-item" href="login.html">Login</a></li>
+
+                <li>
+                  <a class="dropdown-item" href="help.html">Help & Support</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <div class="container-fluid mb-3" style="margin-top: 10rem">
+      <div class="row">
+        <div class="col-md-12 bg-light border-bottom pt-5 pb-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h2>Bill Payments Offers & Coupons</h2>
+                <small
+                  >Save big using our Bill Payment coupons & offers from top
+                  online stores like Paytm, FreeCharge, Mobikwik, Helpchat and
+                  many more</small
+                >
+                <ol class="breadcrumb p-0 m-0 bg-transparent">
+                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item"><a href="#">RechargesBill</a></li>
+                  <li class="breadcrumb-item active">Payments</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md-3">
+          <div class="card mb-3">
+            <div class="card-header">Sub Categories</div>
+            <div class="card-body p-1">
+              <div class="card border-0 b-3">
+                <div class="card-body p-0 collapse show" id="collapseExample1">
+                  <ul
+                    class="list-group list-group-flush"
+                    style="height: 150px; overflow: auto"
+                  >
+                    <li
+                      class="list-group-item p-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1"
+                          >Mobile Recharge (87)</label
+                        >
+                      </div>
+                    </li>
+                    <li
+                      class="list-group-item p-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1"
+                          >Bill Payments (56)</label
+                        >
+                      </div>
+                    </li>
+                    <li
+                      class="list-group-item p-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1"
+                          >DTH (45)</label
+                        >
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card border-0 b-3 mb-3">
+                <div
+                  class="card-header p-2 bg-white"
+                  data-toggle="collapse"
+                  data-target="#collapseExample2"
+                  aria-expanded="false"
+                >
+                  <p class="m-0 h6">Stores</p>
+                </div>
+                <div class="card-body p-0 collapse show" id="collapseExample2">
+                  <ul
+                    class="list-group list-group-flush"
+                    style="height: 200px; overflow: auto"
+                  >
+                    <li
+                      class="list-group-item p-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1"
+                          >Paytm Recharge (19)</label
+                        >
+                      </div>
+                    </li>
+                    <li
+                      class="list-group-item p-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1"
+                          >Paytm (19)</label
+                        >
+                      </div>
+                    </li>
+                    <li
+                      class="list-group-item p-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1">
+                          Jio Recharge (17)</label
+                        >
+                      </div>
+                    </li>
+                    <li
+                      class="list-group-item p-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1">
+                          Airtel Recharge (12)</label
+                        >
+                      </div>
+                    </li>
+                    <li
+                      class="list-group-item p-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1">
+                          FreeCharge (11)</label
+                        >
+                      </div>
+                    </li>
+                    <li
+                      class="list-group-item p-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1">
+                          Vi (10)</label
+                        >
+                      </div>
+                    </li>
+                    <li
+                      class="list-group-item p-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1"
+                          >Idea Cellular (9)</label
+                        >
+                      </div>
+                    </li>
+                    <li
+                      class="list-group-item p-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1"
+                          >MobiKwik (5)</label
+                        >
+                      </div>
+                    </li>
+                    <li
+                      class="list-group-item p-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1"
+                          >BSNL (5)</label
+                        >
+                      </div>
+                    </li>
+                    <li
+                      class="list-group-item p-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1"
+                          >Airtel Payments Bank (3)</label
+                        >
+                      </div>
+                    </li>
+                    <li
+                      class="list-group-item p-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1"
+                          >Amazon Pay (2)</label
+                        >
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card border-0 b-3 mb-3">
+                <div
+                  class="card-header p-2 bg-white"
+                  data-toggle="collapse"
+                  data-target="#collapseExample3"
+                  aria-expanded="false"
+                >
+                  <p class="m-0 h6">Bank & Wallet Offers</p>
+                </div>
+                <div class="card-body p-0 collapse show" id="collapseExample3">
+                  <ul
+                    class="list-group list-group-flush"
+                    style="height: 200px; overflow: auto"
+                  >
+                    <li
+                      class="list-group-item p-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="custom-control custom-checkbox w-100">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1">
+                          <span>PhonePe (3)</span>
+                        </label>
+                      </div>
+                    </li>
+
+                    <li
+                      class="list-group-item p-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="custom-control custom-checkbox w-100">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1">
+                          <span> Google Pay (2)</span>
+                        </label>
+                      </div>
+                    </li>
+                    <li
+                      class="list-group-item p-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="custom-control custom-checkbox w-100">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1">
+                          <span> Amazon pay (8)</span>
+                        </label>
+                      </div>
+                    </li>
+                    <li
+                      class="list-group-item p-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="custom-control custom-checkbox w-100">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1">
+                          <span> Paytm (20)</span>
+                        </label>
+                      </div>
+                    </li>
+                    <li
+                      class="list-group-item p-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="custom-control custom-checkbox w-100">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1">
+                          <span> Mobikwik (5)</span>
+                        </label>
+                      </div>
+                    </li>
+
+                    <li
+                      class="list-group-item p-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="custom-control custom-checkbox w-100">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1">
+                          <span> Freecharge (1)</span>
+                        </label>
+                      </div>
+                    </li>
+                    <li
+                      class="list-group-item p-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="custom-control custom-checkbox w-100">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1">
+                          <span> HDFC Bank (2)</span>
+                        </label>
+                      </div>
+                    </li>
+                    <li
+                      class="list-group-item p-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="custom-control custom-checkbox w-100">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1">
+                          <span> Citi Bank (2)</span>
+                        </label>
+                      </div>
+                    </li>
+                    <li
+                      class="list-group-item p-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="custom-control custom-checkbox w-100">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1">
+                          <span> Yes Bank (2)</span>
+                        </label>
+                      </div>
+                    </li>
+                    <li
+                      class="list-group-item p-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="custom-control custom-checkbox w-100">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1">
+                          <span> Kotak Bank (2)</span>
+                        </label>
+                      </div>
+                    </li>
+                    <li
+                      class="list-group-item p-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="custom-control custom-checkbox w-100">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1">
+                          <span> SBI Bank (2)</span>
+                        </label>
+                      </div>
+                    </li>
+
+                    <li
+                      class="list-group-item p-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="custom-control custom-checkbox w-100">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1">
+                          <span> ICICI Bank (2)</span>
+                        </label>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="btn btn-block btn-light">
+                Filter
+              </button>
+            </div>
+          </div>
+          <div class="card mb-4">
+            <div class="card-header">Top Stores</div>
+            <div class="list-group list-group-flush">
+              <a href="#" class="list-group-item list-group-item-action">
+                OYO Rooms</a
+              >
+              <a href="#" class="list-group-item list-group-item-action active"
+                >MakeMyTrip</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Amazon</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >McDonald's</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >PharmEasy</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Flipkart</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Pepperfry</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >BigRock</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >NNNOW</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Swiggy</a
+              >
+            </div>
+          </div>
+
+          <div class="card mb-4">
+            <div class="card-header">Top Categories</div>
+            <div class="list-group list-group-flush">
+              <a href="#" class="list-group-item list-group-item-action">
+                Travel</a
+              >
+              <a href="#" class="list-group-item list-group-item-action active"
+                >Food & Dining</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Fashion</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Beauty & Health</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Mobiles & Tablets</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Home Furnishing & Decor</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Appliances</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Web Hosting & Domains</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Kids, Babies & Toys</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Flowers, Gifts & Jewellery</a
+              >
+            </div>
+          </div>
+
+          <div class="card mb-4">
+            <div class="card-header">Top Collections</div>
+            <div class="list-group list-group-flush">
+              <a href="#" class="list-group-item list-group-item-action">
+                Friendship Day</a
+              >
+              <a href="#" class="list-group-item list-group-item-action active"
+                >Raksha Bandhan</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Online Educational Courses</a
+              >
+              <a href="#" class="list-group-item list-group-item-action">
+                Exclusive Coupons and Offers</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Work From Home Data Plans</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Paytm Offers</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Amazon Offers</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Swiggy Offers</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >McDonald's Offers</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Domino's Offers</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Refer and Earn</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Invite & Earn</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >extension-banner</a
+              >
+              <a href="#" class="list-group-item list-group-item-action">
+                Earn a Bonus every time you Refer your Friends!</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="">
+            <div class="card-header">
+              <div class="row">
+                <div class="col-md-5">
+                  <form class="d-flex">
+                    <input
+                      class="form-control me-2"
+                      type="search"
+                      placeholder="Search"
+                      aria-label="Search"
+                    />
+                    <button class="btn btn-outline-success" type="submit">
+                      Search
+                    </button>
+                  </form>
+                </div>
+                <div class="col-md-4">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">Sort By:</span>
+                    </div>
+                    <select class="form-control" id="" name="">
+                      <option value="">Default</option>
+                      <option value="">Name (A - Z)</option>
+                      <option value="">Name (Z - A)</option>
+                      <option value="">Price (Low &gt; High)</option>
+                      <option value="">Price (High &gt; Low)</option>
+                      <option value="">Rating (Highest)</option>
+                      <option value="">Rating (Lowest)</option>
+                      <option value="">Model (A - Z)</option>
+                      <option value="">Model (Z - A)</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">Show:</span>
+                    </div>
+                    <select class="form-control" id="" name="">
+                      <option value="">15</option>
+                      <option value="">25</option>
+                      <option value="">50</option>
+                      <option value="">75</option>
+                      <option value="">100</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-12 mb-4">
+                  <div class="card mb-3 p-3">
+                    <div class="row">
+                      <div class="col-md-6 col-12">
+                        <div class="d-flex">
+                          <p>
+                            <i
+                              class="fa fa-check bg-success rounded-circle text-white p-2"
+                              style="font-size: 10px"
+                            ></i>
+                            Verified today
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-12">
+                        <p><i class="fa fa-user"></i> 14 People Used Today</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-10">
+                        <h1>Upto 90% Off Everday</h1>
+                        <small
+                          >Amazon Daily Deals: Save Upto 90% On Select Products
+                          Every Hour</small
+                        >
+                      </div>
+
+                      <div class="col-md-2 mt-3">
+                        <button
+                          class="btn btn-danger"
+                          href="#"
+                          type="button"
+                          class="btn btn-danger mt-4"
+                          data-bs-toggle="modal"
+                          data-bs-target="#exampleModal"
+                        >
+                          Get Deal
+                        </button>
+                      </div>
+                    </div>
+
+                    <div class="card-footer">
+                      <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button
+                              class="accordion-button"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#collapseOne"
+                              aria-expanded="true"
+                              aria-controls="collapseOne"
+                            >
+                              Show Details
+                            </button>
+                          </h2>
+                          <div
+                            id="collapseOne"
+                            class="accordion-collapse collapse"
+                            aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample"
+                          >
+                            <div class="accordion-body">
+                              <strong
+                                >Get upto 25% off on Jio voice + data
+                                plans.</strong
+                              >
+                              <hr />
+                              <p>74% Success</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 mb-4">
+                  <div class="card mb-3 p-3">
+                    <div class="row">
+                      <div class="col-md-6 col-12">
+                        <div class="d-flex">
+                          <p>
+                            <i
+                              class="fa fa-check bg-success rounded-circle text-white p-2"
+                              style="font-size: 10px"
+                            ></i>
+                            Verified today
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-12">
+                        <p><i class="fa fa-user"></i> 14 People Used Today</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-10">
+                        <h1>Upto 90% Off Everday</h1>
+                        <small
+                          >Amazon Daily Deals: Save Upto 90% On Select Products
+                          Every Hour</small
+                        >
+                      </div>
+
+                      <div class="col-md-2 mt-3">
+                        <button
+                          class="btn btn-danger"
+                          href="#"
+                          type="button"
+                          class="btn btn-danger mt-4"
+                          data-bs-toggle="modal"
+                          data-bs-target="#exampleModal"
+                        >
+                          Get Deal
+                        </button>
+                      </div>
+                    </div>
+
+                    <div class="card-footer">
+                      <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button
+                              class="accordion-button"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#collapseOne"
+                              aria-expanded="true"
+                              aria-controls="collapseOne"
+                            >
+                              Show Details
+                            </button>
+                          </h2>
+                          <div
+                            id="collapseOne"
+                            class="accordion-collapse collapse"
+                            aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample"
+                          >
+                            <div class="accordion-body">
+                              <strong
+                                >Get upto 25% off on Jio voice + data
+                                plans.</strong
+                              >
+                              <hr />
+                              <p>74% Success</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 mb-4">
+                  <div class="card mb-3 p-3">
+                    <div class="row">
+                      <div class="col-md-6 col-12">
+                        <div class="d-flex">
+                          <p>
+                            <i
+                              class="fa fa-check bg-success rounded-circle text-white p-2"
+                              style="font-size: 10px"
+                            ></i>
+                            Verified today
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-12">
+                        <p><i class="fa fa-user"></i> 14 People Used Today</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-10">
+                        <h1>Upto 90% Off Everday</h1>
+                        <small
+                          >Amazon Daily Deals: Save Upto 90% On Select Products
+                          Every Hour</small
+                        >
+                      </div>
+
+                      <div class="col-md-2 mt-3">
+                        <button
+                          class="btn btn-danger"
+                          href="#"
+                          type="button"
+                          class="btn btn-danger mt-4"
+                          data-bs-toggle="modal"
+                          data-bs-target="#exampleModal"
+                        >
+                          Get Deal
+                        </button>
+                      </div>
+                    </div>
+
+                    <div class="card-footer">
+                      <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button
+                              class="accordion-button"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#collapseOne"
+                              aria-expanded="true"
+                              aria-controls="collapseOne"
+                            >
+                              Show Details
+                            </button>
+                          </h2>
+                          <div
+                            id="collapseOne"
+                            class="accordion-collapse collapse"
+                            aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample"
+                          >
+                            <div class="accordion-body">
+                              <strong
+                                >Get upto 25% off on Jio voice + data
+                                plans.</strong
+                              >
+                              <hr />
+                              <p>74% Success</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 mb-4">
+                  <div class="card mb-3 p-3">
+                    <div class="row">
+                      <div class="col-md-6 col-12">
+                        <div class="d-flex">
+                          <p>
+                            <i
+                              class="fa fa-check bg-success rounded-circle text-white p-2"
+                              style="font-size: 10px"
+                            ></i>
+                            Verified today
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-12">
+                        <p><i class="fa fa-user"></i> 14 People Used Today</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-10">
+                        <h1>Upto 90% Off Everday</h1>
+                        <small
+                          >Amazon Daily Deals: Save Upto 90% On Select Products
+                          Every Hour</small
+                        >
+                      </div>
+
+                      <div class="col-md-2 mt-3">
+                        <button
+                          class="btn btn-danger"
+                          href="#"
+                          type="button"
+                          class="btn btn-danger mt-4"
+                          data-bs-toggle="modal"
+                          data-bs-target="#exampleModal"
+                        >
+                          Get Deal
+                        </button>
+                      </div>
+                    </div>
+
+                    <div class="card-footer">
+                      <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button
+                              class="accordion-button"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#collapseOne"
+                              aria-expanded="true"
+                              aria-controls="collapseOne"
+                            >
+                              Show Details
+                            </button>
+                          </h2>
+                          <div
+                            id="collapseOne"
+                            class="accordion-collapse collapse"
+                            aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample"
+                          >
+                            <div class="accordion-body">
+                              <strong
+                                >Get upto 25% off on Jio voice + data
+                                plans.</strong
+                              >
+                              <hr />
+                              <p>74% Success</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 mb-4">
+                  <div class="card mb-3 p-3">
+                    <div class="row">
+                      <div class="col-md-6 col-12">
+                        <div class="d-flex">
+                          <p>
+                            <i
+                              class="fa fa-check bg-success rounded-circle text-white p-2"
+                              style="font-size: 10px"
+                            ></i>
+                            Verified today
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-12">
+                        <p><i class="fa fa-user"></i> 14 People Used Today</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-10">
+                        <h1>Upto 90% Off Everday</h1>
+                        <small
+                          >Amazon Daily Deals: Save Upto 90% On Select Products
+                          Every Hour</small
+                        >
+                      </div>
+
+                      <div class="col-md-2 mt-3">
+                        <button
+                          class="btn btn-danger"
+                          href="#"
+                          type="button"
+                          class="btn btn-danger mt-4"
+                          data-bs-toggle="modal"
+                          data-bs-target="#exampleModal"
+                        >
+                          Get Deal
+                        </button>
+                      </div>
+                    </div>
+
+                    <div class="card-footer">
+                      <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button
+                              class="accordion-button"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#collapseOne"
+                              aria-expanded="true"
+                              aria-controls="collapseOne"
+                            >
+                              Show Details
+                            </button>
+                          </h2>
+                          <div
+                            id="collapseOne"
+                            class="accordion-collapse collapse"
+                            aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample"
+                          >
+                            <div class="accordion-body">
+                              <strong
+                                >Get upto 25% off on Jio voice + data
+                                plans.</strong
+                              >
+                              <hr />
+                              <p>74% Success</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 mb-4">
+                  <div class="card mb-3 p-3">
+                    <div class="row">
+                      <div class="col-md-6 col-12">
+                        <div class="d-flex">
+                          <p>
+                            <i
+                              class="fa fa-check bg-success rounded-circle text-white p-2"
+                              style="font-size: 10px"
+                            ></i>
+                            Verified today
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-12">
+                        <p><i class="fa fa-user"></i> 14 People Used Today</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-10">
+                        <h1>Upto 90% Off Everday</h1>
+                        <small
+                          >Amazon Daily Deals: Save Upto 90% On Select Products
+                          Every Hour</small
+                        >
+                      </div>
+
+                      <div class="col-md-2 mt-3">
+                        <button
+                          class="btn btn-danger"
+                          href="#"
+                          type="button"
+                          class="btn btn-danger mt-4"
+                          data-bs-toggle="modal"
+                          data-bs-target="#exampleModal"
+                        >
+                          Get Deal
+                        </button>
+                      </div>
+                    </div>
+
+                    <div class="card-footer">
+                      <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button
+                              class="accordion-button"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#collapseOne"
+                              aria-expanded="true"
+                              aria-controls="collapseOne"
+                            >
+                              Show Details
+                            </button>
+                          </h2>
+                          <div
+                            id="collapseOne"
+                            class="accordion-collapse collapse"
+                            aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample"
+                          >
+                            <div class="accordion-body">
+                              <strong
+                                >Get upto 25% off on Jio voice + data
+                                plans.</strong
+                              >
+                              <hr />
+                              <p>74% Success</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 mb-4">
+                  <div class="card mb-3 p-3">
+                    <div class="row">
+                      <div class="col-md-6 col-12">
+                        <div class="d-flex">
+                          <p>
+                            <i
+                              class="fa fa-check bg-success rounded-circle text-white p-2"
+                              style="font-size: 10px"
+                            ></i>
+                            Verified today
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-12">
+                        <p><i class="fa fa-user"></i> 14 People Used Today</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-10">
+                        <h1>Upto 90% Off Everday</h1>
+                        <small
+                          >Amazon Daily Deals: Save Upto 90% On Select Products
+                          Every Hour</small
+                        >
+                      </div>
+
+                      <div class="col-md-2 mt-3">
+                        <button
+                          class="btn btn-danger"
+                          href="#"
+                          type="button"
+                          class="btn btn-danger mt-4"
+                          data-bs-toggle="modal"
+                          data-bs-target="#exampleModal"
+                        >
+                          Get Deal
+                        </button>
+                      </div>
+                    </div>
+
+                    <div class="card-footer">
+                      <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button
+                              class="accordion-button"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#collapseOne"
+                              aria-expanded="true"
+                              aria-controls="collapseOne"
+                            >
+                              Show Details
+                            </button>
+                          </h2>
+                          <div
+                            id="collapseOne"
+                            class="accordion-collapse collapse"
+                            aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample"
+                          >
+                            <div class="accordion-body">
+                              <strong
+                                >Get upto 25% off on Jio voice + data
+                                plans.</strong
+                              >
+                              <hr />
+                              <p>74% Success</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 mb-4">
+                  <div class="card mb-3 p-3">
+                    <div class="row">
+                      <div class="col-md-6 col-12">
+                        <div class="d-flex">
+                          <p>
+                            <i
+                              class="fa fa-check bg-success rounded-circle text-white p-2"
+                              style="font-size: 10px"
+                            ></i>
+                            Verified today
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-12">
+                        <p><i class="fa fa-user"></i> 14 People Used Today</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-10">
+                        <h1>Upto 90% Off Everday</h1>
+                        <small
+                          >Amazon Daily Deals: Save Upto 90% On Select Products
+                          Every Hour</small
+                        >
+                      </div>
+
+                      <div class="col-md-2 mt-3">
+                        <button
+                          class="btn btn-danger"
+                          href="#"
+                          type="button"
+                          class="btn btn-danger mt-4"
+                          data-bs-toggle="modal"
+                          data-bs-target="#exampleModal"
+                        >
+                          Get Deal
+                        </button>
+                      </div>
+                    </div>
+
+                    <div class="card-footer">
+                      <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button
+                              class="accordion-button"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#collapseOne"
+                              aria-expanded="true"
+                              aria-controls="collapseOne"
+                            >
+                              Show Details
+                            </button>
+                          </h2>
+                          <div
+                            id="collapseOne"
+                            class="accordion-collapse collapse"
+                            aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample"
+                          >
+                            <div class="accordion-body">
+                              <strong
+                                >Get upto 25% off on Jio voice + data
+                                plans.</strong
+                              >
+                              <hr />
+                              <p>74% Success</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer p-3">
+              <div class="row">
+                <div class="col-md-6">
+                  <ul class="pagination m-0">
+                    <li class="page-item disabled">
+                      <a
+                        class="page-link"
+                        href="#"
+                        tabindex="-1"
+                        aria-disabled="true"
+                        >Previous</a
+                      >
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">1</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">2</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">3</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">Next</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-6">
+                  <p class="text-right mb-0 mt-1">
+                    Showing 1 to 12 of 12 (1 Pages)
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row"></div>
+      <div class="row"></div>
+      <div class="row"></div>
+      <div class="row"></div>
+      <div class="row"></div>
+      <div class="row"></div>
+      <div class="row"></div>
+      <div class="row"></div>
+      <div class="row mb-5">
+        <div class="col-md-12">
+          <div class="card">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-3 col-6">
+                  <img src="./img/amazon-logo-small.jpg" alt="" srcset="" />
+                  <p class="h6">
+                    Amazon | 2 Offers <br /><small class="text-muted"
+                      >6.5% Voucher Rewards</small
+                    >
+                  </p>
+                </div>
+                <div class="col-md-3 col-6">
+                  <img
+                    src="./img/reliancejio-logo-small.jpg"
+                    alt=""
+                    srcset=""
+                  />
+                  <p class="h6">
+                    Jio Recharge coupons <br /><small class="text-muted"
+                      >Jio Recharge | 3 Offers</small
+                    >
+                  </p>
+                </div>
+                <div class="col-md-3 col-6">
+                  <img src="./img/paytm-logo-small.jpg" alt="" srcset="" />
+                  <p class="h6">
+                    Paytm coupons <br /><small class="text-muted"
+                      >Paytm | 7 Offers</small
+                    >
+                  </p>
+                </div>
+                <div class="col-md-3 col-6">
+                  <img src="./img/mobikwik-logo-small.jpg" alt="" srcset="" />
+                  <p class="h6">
+                    MobiKwik coupons <br /><small class="text-muted"
+                      >MobiKwik | 5 Offers</small
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header bg-light">
+            <div class="row d-flex justify-content-center align-items-center">
+              <div class="col-4">
+                <img
+                  src="./img/tranding/1.png"
+                  alt=""
+                  srcset=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="col-8">
+                <h5 class="modal-title" id="exampleModalLabel">Zomato</h5>
+                <p>
+                  Zomato Coupans: Upto 60% Off on Food Orders (Select
+                  Restaurants)
+                </p>
+              </div>
+            </div>
+
+            <button
+              type="button"
+              class="btn-close bg-white text-black-50 rounded-circle"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body text-center">
+            <h2 class="mb-3">Your Coupon Code:</h2>
+            <div
+              class="input-group mb-3 d-flex justify-content-center align-items-center"
+              style="border: 1px dashed"
+            >
+              <p class="text-danger">
+                Deal Activated.
+                <span class="text-dark">No Coupon Code Required!</span>
+              </p>
+            </div>
+          </div>
+          <div class="text-center py-4">
+            <a href="https://www.zomato.com/india">Visit Zomato. </a
+            ><span>and paste your code at checkout</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 1 model -->
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

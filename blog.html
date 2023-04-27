@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Coupan Web</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        role="status"
+        style="width: 3rem; height: 3rem"
+      ></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <div
+      class="container-fluid fixed-top px-0 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <!-- <div class="top-bar row gx-0 align-items-center d-none d-lg-flex"></div> -->
+
+      <nav
+        class="navbar navbar-expand-lg navbar-light py-lg-4 px-lg-5 wow fadeIn"
+        data-wow-delay="0.1s"
+      >
+        <a href="index.html" class="navbar-brand ms-4 ms-lg-0 p-4 pt-lg-4 pb-0">
+          <img src="./img/logo.png" alt="" srcset="" class="img-fluid" />
+        </a>
+        <button
+          type="button"
+          class="navbar-toggler me-4"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav mx-auto p-4 pt-lg-4 pb-0">
+            <a href="index.html" class="nav-item nav-link">Home</a>
+            <a href="about.html" class="nav-item nav-link">About Us</a>
+            <div class="nav-item dropdown ktm-mega-menu d-none d-lg-block">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+                Categories
+              </a>
+              <!-- Mega Menu -->
+              <div class="dropdown-menu mega-menu p-3">
+                <div class="row">
+                  <div class="col-md-4 col-12">
+                    <div class="category-wrapper">
+                      <a href="" rel="noindex"
+                        ><div class="red heading">Recharge</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Bill Payments</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">DTH Recharge</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Mobile Recharge</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="red heading">Food &amp; Dining</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Pizza</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Food Delivery</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Grocery</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="red heading">Fashion</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Clothing</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Footwear</div></a
+                      >
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-12">
+                    <div class="category-wrapper">
+                      <a href="" rel="noindex"
+                        ><div class="red heading">Travel</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Bus</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Flight</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Train</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Cabs</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Hotel</div></a
+                      >
+                      <div class="heading">Other Popular</div>
+                      <a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Mobiles</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Laptops</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Movie Tickets</div></a
+                      >
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-12">
+                    <div class="category-wrapper">
+                      <div class="heading">Other Categories</div>
+                      <a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">
+                          TV, Audio/Video &amp; Movies
+                        </div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Beauty &amp; Health</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Miscellaneous</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">
+                          Computers, Laptops &amp; Gaming
+                        </div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Appliances</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">
+                          Home Furnishing &amp; Decor
+                        </div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">
+                          Flowers, Gifts &amp; Jewellery
+                        </div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">
+                          Books &amp; Stationery
+                        </div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">
+                          Kids, Babies &amp; Toys
+                        </div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">
+                          Cameras &amp; Accessories
+                        </div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Sports &amp; Fitness</div></a
+                      >
+                    </div>
+                  </div>
+                  <div class="top-categories">
+                    <a href="categories.html"
+                      >View all Categories <i class="fa fa-angle-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <a
+              href="categories.html"
+              class="nav-item nav-link d-lg-none d-block"
+              >Categories</a
+            >
+            <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+            <a href="blog.html" class="nav-item nav-link active">Blog</a>
+            <div class="d-block d-lg-none ms-2 p-4 pt-lg-4 pb-0">
+              <a
+                href="login.html"
+                type="button"
+                class="btn btn-outline-danger rounded-pill"
+                >Login</a
+              >
+              <a
+                href="register.html"
+                type="button"
+                class="btn btn-outline-danger rounded-pill mx-3"
+              >
+                SignUp
+              </a>
+            </div>
+          </div>
+          <div class="d-none d-lg-flex ms-2 p-4 pt-lg-4 pb-0">
+            <div class="dropdown">
+              <a
+                class="btn btn-light dropdown-toggle d-flex px-3"
+                href="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <div class="row">
+                  <div class="col-6">
+                    <div class="position-relative">
+                      <img
+                        height="40px"
+                        width="40px"
+                        class="header-user-pic"
+                        src="https://d1nrhamtcpp354.cloudfront.net/modules/web/assets/images/default_user.png"
+                        alt="profile pic"
+                      />
+                      <span
+                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                      >
+                        1
+                        <span class="visually-hidden">unread messages</span>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-6" style="line-height: 5px">
+                    <h6>You</h6>
+                    <small>Rs.0.00</small>
+                  </div>
+                </div>
+              </a>
+
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li>
+                  <a class="dropdown-item" href="register.html">Signup</a>
+                </li>
+                <li><a class="dropdown-item" href="login.html">Login</a></li>
+
+                <li>
+                  <a class="dropdown-item" href="help.html">Help & Support</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <div class="container-fluid mb-3" style="margin-top: 10rem">
+      <div class="row">
+        <div class="col-md-12 bg-light border-bottom pt-5 pb-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h2>Blog</h2>
+
+                <ol class="breadcrumb p-0 m-0 bg-transparent">
+                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-item active">Blog</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Blog Start -->
+    <div class="container-fluid py-2 wow fadeInUp" data-wow-delay="0.1s">
+      <div class="container py-2">
+        <div
+          class="text-center mx-auto wow fadeInUp mb-5"
+          data-wow-delay="0.1s"
+          style="max-width: 600px"
+        >
+          <p class="d-inline-block rounded text-danger fw-bold py-1 px-3">
+            Our Blog
+          </p>
+          <h4>Red our blog for the latest update of service</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam
+            temporibus doloremque possimus quam voluptate illo.
+          </p>
+        </div>
+
+        <div class="row g-5">
+          <!-- Blog list Start -->
+          <div class="col-lg-8">
+            <div class="row g-5">
+              <div class="col-md-6 wow slideInUp" data-wow-delay="0.1s">
+                <div class="blog-item bg-light rounded overflow-hidden">
+                  <div class="blog-img position-relative overflow-hidden">
+                    <img
+                      src="img/service-1.jpg"
+                      alt=""
+                      alt=""
+                      width="100%"
+                      height="250px"
+                    />
+                  </div>
+                  <div class="p-4">
+                    <div class="d-flex mb-3">
+                      <small
+                        ><i class="far fa-calendar-alt text-primary me-2"></i
+                        >December 3, 2020</small
+                      >
+                    </div>
+                    <h4 class="mb-3 text-truncate">
+                      A passion for putting patients first
+                    </h4>
+                    <p class="text-truncate">
+                      Dolor et eos labore stet justo sed est sed sed sed dolor
+                      stet amet
+                    </p>
+                    <a class="text-uppercase" href="blog-details.html"
+                      >Read More <i class="bi bi-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 wow slideInUp" data-wow-delay="0.1s">
+                <div class="blog-item bg-light rounded overflow-hidden">
+                  <div class="blog-img position-relative overflow-hidden">
+                    <img
+                      src="img/service-2.jpg"
+                      alt=""
+                      alt=""
+                      width="100%"
+                      height="250px"
+                    />
+                  </div>
+                  <div class="p-4">
+                    <div class="d-flex mb-3">
+                      <small
+                        ><i class="far fa-calendar-alt text-primary me-2"></i
+                        >December 3, 2020</small
+                      >
+                    </div>
+                    <h4 class="mb-3 text-truncate">
+                      A passion for putting patients first
+                    </h4>
+                    <p class="text-truncate">
+                      Dolor et eos labore stet justo sed est sed sed sed dolor
+                      stet amet
+                    </p>
+                    <a class="text-uppercase" href="blog-details.html"
+                      >Read More <i class="bi bi-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 wow slideInUp" data-wow-delay="0.1s">
+                <div class="blog-item bg-light rounded overflow-hidden">
+                  <div class="blog-img position-relative overflow-hidden">
+                    <img
+                      src="img/service-3.jpg"
+                      alt=""
+                      alt=""
+                      width="100%"
+                      height="250px"
+                    />
+                  </div>
+                  <div class="p-4">
+                    <div class="d-flex mb-3">
+                      <small
+                        ><i class="far fa-calendar-alt text-primary me-2"></i
+                        >December 3, 2020</small
+                      >
+                    </div>
+                    <h4 class="mb-3 text-truncate">
+                      A passion for putting patients first
+                    </h4>
+                    <p class="text-truncate">
+                      Dolor et eos labore stet justo sed est sed sed sed dolor
+                      stet amet
+                    </p>
+                    <a class="text-uppercase" href="blog-details.html"
+                      >Read More <i class="bi bi-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 wow slideInUp" data-wow-delay="0.1s">
+                <div class="blog-item bg-light rounded overflow-hidden">
+                  <div class="blog-img position-relative overflow-hidden">
+                    <img
+                      src="img/service-4.jpg"
+                      alt=""
+                      width="100%"
+                      height="250px"
+                    />
+                  </div>
+                  <div class="p-4">
+                    <div class="d-flex mb-3">
+                      <small
+                        ><i class="far fa-calendar-alt text-primary me-2"></i
+                        >December 3, 2020</small
+                      >
+                    </div>
+                    <h4 class="mb-3 text-truncate">
+                      A passion for putting patients first
+                    </h4>
+                    <p class="text-truncate">
+                      Dolor et eos labore stet justo sed est sed sed sed dolor
+                      stet amet
+                    </p>
+                    <a class="text-uppercase" href="blog-details.html"
+                      >Read More <i class="bi bi-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 wow slideInUp" data-wow-delay="0.1s">
+                <nav aria-label="Page navigation">
+                  <ul class="pagination pagination-lg m-0">
+                    <li class="page-item disabled">
+                      <a
+                        class="page-link rounded-0"
+                        href="#"
+                        aria-label="Previous"
+                      >
+                        <span aria-hidden="true"
+                          ><i class="bi bi-arrow-left"></i
+                        ></span>
+                      </a>
+                    </li>
+                    <li class="page-item active">
+                      <a class="page-link" href="#">1</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">2</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">3</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link rounded-0" href="#" aria-label="Next">
+                        <span aria-hidden="true"
+                          ><i class="bi bi-arrow-right"></i
+                        ></span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <!-- Blog list End -->
+
+          <!-- Sidebar Start -->
+          <div class="col-lg-4">
+            <!-- Search Form Start -->
+            <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control p-3"
+                  placeholder="Keyword"
+                />
+                <button class="btn btn-primary px-4">
+                  <i class="bi bi-search"></i>
+                </button>
+              </div>
+            </div>
+            <!-- Search Form End -->
+
+            <!-- Recent Post Start -->
+            <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+              <div
+                class="section-title section-title-sm position-relative pb-3 mb-4"
+              >
+                <h3 class="mb-0">Recent Post</h3>
+              </div>
+              <div class="d-flex rounded overflow-hidden mb-3">
+                <img
+                  class="img-fluid"
+                  src="img/service-1.jpg"
+                  style="width: 100px; height: 100px; object-fit: cover"
+                  alt=""
+                />
+                <a
+                  href="blog-details.html"
+                  class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0 text-truncate w-100"
+                  >Lorem ipsum dolor sit amet adipis elit
+                </a>
+              </div>
+            </div>
+            <!-- Recent Post End -->
+          </div>
+          <!-- Sidebar End -->
+        </div>
+      </div>
+    </div>
+    <!-- Blog End -->
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
